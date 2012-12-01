@@ -1,0 +1,56 @@
+<RCC>
+	<qresource prefix="/systray">
+		<file alias="00">icons/systray/00.png</file>
+		<file alias="100">icons/systray/100.png</file>
+		<file alias="25">icons/systray/25.png</file>
+		<file alias="50">icons/systray/50.png</file>
+		<file alias="75">icons/systray/75.png</file>
+		<file alias="analyzing">icons/systray/analyzing.png</file>
+		<file alias="disconnected">icons/systray/disconnected.png</file>
+		<file alias="hide">icons/systray/hide.png</file>
+		<file alias="nodevice">icons/systray/nodevice.png</file>
+		<file alias="restore">icons/systray/restore.png</file>
+	</qresource>
+	<qresource prefix="/buttons">
+		<file alias="account">icons/buttons/account.png</file>
+		<file alias="connect">icons/buttons/connect.png</file>
+		<file alias="disconnect">icons/buttons/disconnect.png</file>
+		<file alias="hide">icons/buttons/hide.png</file>
+		<file alias="settings">icons/buttons/settings.png</file>
+	</qresource>
+	<qresource prefix="/actions">
+		<file alias="account">icons/actions/account.png</file>
+		<file alias="connect">icons/actions/connect.png</file>
+		<file alias="disconnect">icons/actions/disconnect.png</file>
+		<file alias="clear">icons/actions/clear.png</file>
+		<file alias="connectto">icons/actions/connectto.png</file>
+		<file alias="console">icons/actions/console.png</file>
+		<file alias="deviceinfo">icons/actions/deviceinfo.png</file>
+		<file alias="documentation">icons/actions/documentation.png</file>
+		<file alias="favorite">icons/actions/favorite.png</file>
+		<file alias="home">icons/actions/home.png</file>
+		<file alias="issue">icons/actions/issue.png</file>
+		<file alias="keyboard">icons/actions/keyboard.png</file>
+		<file alias="quit">icons/actions/quit.png</file>
+		<file alias="reconnect">icons/actions/reconnect.png</file>
+		<file alias="schedule">icons/actions/schedule.png</file>
+		<file alias="search">icons/actions/search.png</file>
+	</qresource>
+	<qresource prefix="/stats">
+		<file alias="bsid">icons/stats/bsid.png</file>
+		<file alias="cinr">icons/stats/cinr.png</file>
+		<file alias="download">icons/stats/download.png</file>
+		<file alias="ip">icons/stats/ip.png</file>
+		<file alias="rssi">icons/stats/rssi.png</file>
+		<file alias="status">icons/stats/status.png</file>
+		<file alias="time">icons/stats/time.png</file>
+		<file alias="upload">icons/stats/upload.png</file>
+	</qresource>
+	<qresource prefix="/appicons">
+		<file alias="appicon16">icons/appicons/wimaxcmgui16.png</file>
+		<file alias="appicon22">icons/appicons/wimaxcmgui22.png</file>
+		<file alias="appicon32">icons/appicons/wimaxcmgui32.png</file>
+		<file alias="appicon48">icons/appicons/wimaxcmgui48.png</file>
+		<file alias="appicon64">icons/appicons/wimaxcmgui64.png</file>
+	</qresource>
+</RCC>

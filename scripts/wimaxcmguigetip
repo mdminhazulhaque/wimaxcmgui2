@@ -1,0 +1,12 @@
+#!/bin/sh
+
+MAC=$(wimaxc versions | grep MAC | cut -d' ' -f3 | sed s/-/:/g)
+ETH=$(/sbin/ifconfig -a | grep -i $MAC | cut -d' ' -f1)
+IP=$(ifconfig $ETH | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}' )
+
+if [ $IP ]
+then
+	echo $IP
+else
+	echo "Not found"
+fi
